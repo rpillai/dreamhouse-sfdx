@@ -1,0 +1,9 @@
+on:
+  pull_request:
+    branches:
+    - master
+jobs:
+  my_job:
+    name: deploy to staging
+    runs-on: ubuntu-22.04
+   
